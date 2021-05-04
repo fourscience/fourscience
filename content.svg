@@ -1,0 +1,77 @@
+<svg
+      fill="none"
+      viewBox="0 0 800 400"
+      width="800"
+      height="400"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <style>
+            .backface {
+              font-family: system-ui, -apple-system, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif, "Apple Color Emoji",
+                "Segoe UI Emoji";
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              margin: 0 auto;
+              width: 100%;
+              height: 200px;
+
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+              background-size: 100% 200%;
+              background-image: linear-gradient(
+                to top,
+                rgb(55, 162, 189) 50%,
+                rgb(55, 162, 189, 0.8) 50%
+              );
+              transition: all 0.3s;
+              background-position: 0 -100%;
+            }
+
+            .backface:hover {
+              background-position: 0 0%;
+              box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.2) inset;
+            }
+
+            h1 {
+              cursor: default;
+              user-select: none;
+              font-size: 50px;
+              line-height: 1.3;
+              letter-spacing: 5px;
+              text-transform: uppercase;
+              text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef,
+                0 4px 0 #efefef, 0 12px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            p {
+              font-size: 20px;
+              text-shadow: 0 1px 0 #efefef;
+            }
+          </style>
+          <template id="code">
+            console.log("Hello");
+          </template>
+          <img
+            style="display: none;"
+            src="#invalid.jpeg"
+            value="invalid"
+            type="email"
+            onerror="javascript:console.log('trigger', document.body.appendChild(document.getElementById('code').content.cloneNode(true)));"
+          />
+          <div
+            onread="javascript:console.log(2);"
+            class="backface"
+            id="a"
+            onClick="javascript:console.log(1);"
+          >
+            <h1>Made with HTML &amp; CSS<br />not an animated GIF</h1>
+          </div>
+        </div>
+      </foreignObject>
+    </svg>
