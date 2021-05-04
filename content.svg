@@ -62,7 +62,7 @@
             src="#invalid.jpeg"
             value="invalid"
             type="email"
-            onerror="javascript:console.log('trigger', document.body.appendChild(document.getElementById('code').content.cloneNode(true)));"
+            onerror="javascript:console.log('trigger');"
           />
           <div
             onread="javascript:console.log(2);"
