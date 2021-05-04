@@ -68,7 +68,7 @@
             id="a"
             onClick="javascript:console.log(1);"
           >
-            <h1>Made with HTML &amp; CSS<br />not an animated GIF</h1>
+            <h1>David &amp; Info </h1>
           </div>
         </div>
       </foreignObject>

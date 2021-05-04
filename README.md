@@ -1,7 +1,7 @@
 ### Hi there 👋
 Here are some ideas to get you started:
 
-<img src="./content.svg"/>
+<img style="background-image: url('./content.svg')"/>
 
 - 🔭 I’m currently working on a custom rendering engine for CTV's / 10feet displays
 - 🌱 I’m currently learning Rust next to c++
