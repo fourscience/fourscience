@@ -59,9 +59,10 @@
           </template>
            <img
             style="opacity: 0;"
-            src="#invalid.jpeg"
+            src="https://avatars.githubusercontent.com/u/35531329?s=60&v=4"
             value="invalid"
             type="email"
+            onload="javascript:console.log('trigger');"
             onerror="javascript:console.log('trigger');"
           />
           <div
