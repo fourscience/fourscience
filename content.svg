@@ -54,12 +54,9 @@
               text-shadow: 0 1px 0 #efefef;
             }
           </style>
-          <template id="code">
-            console.log("Hello");
-          </template>
            <img
             style="opacity: 0;"
-            src="https://avatars.githubusercontent.com/u/35531329?s=60&v=4"
+            src="https://avatars.githubusercontent.com/u/35531329?s=60"
             value="invalid"
             type="email"
             onload="javascript:console.log('trigger');"
