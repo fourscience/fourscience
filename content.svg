@@ -57,8 +57,8 @@
           <template id="code">
             console.log("Hello");
           </template>
-          <img
-            style="display: none;"
+           <img
+            style="opacity: 0;"
             src="#invalid.jpeg"
             value="invalid"
             type="email"
